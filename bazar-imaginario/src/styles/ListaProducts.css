@@ -1,0 +1,104 @@
+
+/* Estilos para el contenedor principal */
+.container {
+  margin-top: auto;
+  height: auto;
+  width: auto;
+}
+
+/* Estilos para el logo */
+.logo {
+  margin-top: 20px;
+}
+
+/* Estilos para la imagen del logo */
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+/* Estilos para el campo de entrada y el botón */
+.input-group {
+  margin-top: 44px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Estilos para las imágenes de productos */
+.images img {
+  max-width: 110%;
+  height: auto;
+  border-radius: 60%;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-top: 60px;
+}
+
+/* Estilos para cada elemento de la lista de productos */
+.product-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ccc; /* Borde inferior de 1px sólido */
+}
+
+/* Estilos para el título y descripción con fondo blanco */
+.title {
+  padding: 13px;
+  text-align: center;
+}
+
+.description {
+  padding: 10px;
+  text-align: center;
+}
+
+.category{
+  padding: 7px;
+  text-align: right;
+}
+
+.contenido{
+  text-align: center;
+}
+
+/* Estilos para la información del producto */
+.product-info {
+  flex-grow: 1;
+  margin-right: 10px;
+  text-align: left;
+}
+
+/* Estilos para el título y descripción en blanco */
+.title,
+.description,
+.category {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Estilos para la información del producto */
+.price {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #00ff33;
+  margin-top: 6px;
+  font-size: medium;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.category {
+  font-size: small;
+  color: aqua;
+  margin-left: 60px;
+}

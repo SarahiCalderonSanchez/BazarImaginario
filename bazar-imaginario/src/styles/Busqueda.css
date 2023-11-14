@@ -1,0 +1,60 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #202538;
+  margin: 0;
+  padding: 10px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 20px; /* Ajusta según tus necesidades */
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.neon-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #00f, #aaf, #f0f);
+  background-size: 200% 200%;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: background-position 0.5s, box-shadow 0.5s;
+}
+
+.neon-button:hover {
+  background-position: right center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilo para las columnas de imágenes */
+.col-4 {
+  flex: 0 0 32%;
+  margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+titulo{
+  background-color: linear-gradient(45deg, #00f, #aaf, #f0f);;
+}
