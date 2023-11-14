@@ -33,7 +33,6 @@ const useProductos = () => {
         setProductos(productosApi);
       } catch (error) {
         console.error("Error al obtener datos de la API:", error.message);
-        // Manejar el error según tus necesidades
       }
     };
     regApiProductos();
